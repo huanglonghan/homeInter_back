@@ -14,7 +14,7 @@ class Db
     public static $user = array(
         'host'    => '127.0.0.1',
         'port'    => 10002,
-        'user'    => 'huang',
+        'user'    => 'server',
         'password' => '123456',
         'dbname'  => 'homeinter',
         'charset'    => 'utf8',
