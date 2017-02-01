@@ -13,7 +13,7 @@ use Config\Service;
 
 class Log
 {
-    private static $logFile = './Log/HomeInter.log';
+    private static $logFile = __DIR__ . 'Log/HomeInter.log';
 
     private static $levelRelation = array('I' => 5,
         'D' => 4,
